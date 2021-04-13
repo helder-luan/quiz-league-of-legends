@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0;
+}
+
+main h1 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+main .alternatives {
+  display: flex;
+  flex-direction: column;
+}
+
+main .alternatives input {
+  border: 0;
+  border-radius: 8px;
+  font-size: 2rem;
+  padding: 1rem 25rem;
+  max-width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  margin: 1rem;
+  background: #fff;
+}
+
+main .alternatives input:hover {
+  border: 2px solid #000;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px #000000b3;
+}
+
+input.correct {
+  background: #0f0 !important;
+  border: 2px solid #0f0 !important;
+  cursor: default !important;
+}
+
+input.incorrect {
+  background: #f00 !important;
+  border: 2px solid #f00 !important;
+  cursor: default !important;
+}
